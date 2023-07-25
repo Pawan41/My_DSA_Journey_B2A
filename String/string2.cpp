@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     string st;
-    cin >> st;  // abc 
+    cin >> st;  
    map<char, int> mp;
 
     for (int i = 0; i < st.size(); i++)
