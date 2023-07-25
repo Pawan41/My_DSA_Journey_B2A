@@ -5,7 +5,8 @@ int Binary_Search(int arr[], int l, int h, int target)
 {
     // base case
     if (l > h)
-    { // l>h it means there is no element in a search space
+    {
+        // l>h it means there is no element in a search space
         return -1;
     }
 
