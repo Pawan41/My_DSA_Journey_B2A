@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// function to reverse the string
+// Function To Reverse The String
 void reverse(char ch[], int n)
 {
     int s = 0, e = n - 1;
@@ -11,7 +11,7 @@ void reverse(char ch[], int n)
     }
 }
 
-// function to calculate the length of the string
+// Function To Calculate The Length of the String
 int length(char ch[])
 {
 
@@ -29,7 +29,7 @@ int main()
 
     cout << "the name of the string is :" << ch << endl;
     int len = length(ch);
-    cout << "The length of the string is : " << len;
+    cout << "The length of the string is: " << len;
     reverse(ch, len);
     cout << "The reverse string is:" << ch;
     return 0;
